@@ -11,5 +11,6 @@ Atomic Object Pair Lunch Picker
 3. Install [Android Studio](https://developer.android.com/studio) either manually, or by running `brew install android-studio`
    1. [Configure Android Studio following the guide that React Native provides](https://reactnative.dev/docs/environment-setup#installing-dependencies).
 4. Run `node -v` and make sure you are running node version v16.13.1. You can use [nvm](https://github.com/nvm-sh/nvm) to change your node version.
-5. Run `yarn compile` in the project root directory to install packages.
-6. Run `yarn ios` or `yarn android` for ios or android respectively.
+5. Run `ruby -v` and make sure are running ruby version v3.1.0. You can use [rvm](https://rvm.io/) to change your ruby version.
+6. Run `yarn compile` in the project root directory to install packages.
+7. Run `yarn ios` or `yarn android` for ios or android respectively.
