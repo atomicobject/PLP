@@ -1,3 +1,5 @@
+import {NotificationAndroid} from '@notifee/react-native/dist/types/NotificationAndroid';
+
 export type yelpBusinessResponse = {
   id: string;
   alias: string;
@@ -13,7 +15,7 @@ export type yelpBusinessResponse = {
     {
       alias: string;
       title: string;
-    }
+    },
   ];
   rating: number;
   location: {
@@ -41,11 +43,11 @@ export type yelpBusinessResponse = {
           start: string;
           end: string;
           day: number;
-        }
+        },
       ];
       hours_type: string;
       is_open_now: boolean;
-    }
+    },
   ];
   transactions: [];
   special_hours: [
@@ -55,7 +57,7 @@ export type yelpBusinessResponse = {
       start: string;
       end: string;
       is_overnight: boolean;
-    }
+    },
   ];
 };
 
@@ -75,6 +77,12 @@ export type yelpReviewResponse = {
         name: string;
         image_url: string;
       };
-    }
+    },
   ];
+};
+
+export type PushNotification = {
+  title: string;
+  body: string;
+  android?: NotificationAndroid;
 };
