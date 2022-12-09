@@ -1,3 +1,7 @@
+import {
+  GoogleSignin,
+  statusCodes,
+} from '@react-native-google-signin/google-signin';
 import {useNavigation} from '@react-navigation/core';
 import React, {FC, useEffect, useState} from 'react';
 import {
@@ -14,18 +18,14 @@ import {Icon} from 'react-native-elements';
 import {ScrollView} from 'react-native-gesture-handler';
 import Modal from 'react-native-modal';
 import SegmentedControlTab from 'react-native-segmented-control-tab';
+import SystemNavigationBar from 'react-native-system-navigation-bar';
 import {Yelp} from '../../core/api/yelp';
 import {YelpCarouselCheapEats} from '../../core/api/yelp-carousel-cheap-eats';
 import {YelpCarouselDiscover} from '../../core/api/yelp-carousel-discover';
 import {YelpCarouselHot} from '../../core/api/yelp-carousel-hot';
 import {YelpCarouselNearMe} from '../../core/api/yelp-carousel-near-me';
 import {YelpSearchFilter} from '../../core/api/yelp-search-filter';
-import SystemNavigationBar from 'react-native-system-navigation-bar';
-import {
-  GoogleSignin,
-  GoogleSigninButton,
-  statusCodes,
-} from '@react-native-google-signin/google-signin';
+import {Notification} from '../../shared_components/notification';
 // import auth from "@react-native-firebase/auth";
 
 export const HomeScreen: FC = () => {
@@ -145,6 +145,7 @@ export const HomeScreen: FC = () => {
         <View style={styles.searchContainer}>
           <YelpSearchFilter location={location} />
         </View>
+        <Notification></Notification>
         <View style={{alignItems: 'center'}}>
           {/* {!loggedIn ? (
             <GoogleSigninButton
