@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1071200356644",
+    "project_id": "pair-lunch-picker-7f114",
+    "storage_bucket": "pair-lunch-picker-7f114.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1071200356644:android:c5db7bc5d6f44dc6bd8bb1",
+        "android_client_info": {
+          "package_name": "com.pairlunchpicker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1071200356644-n7dt828jjc94hgp5md1squ257n6ro6it.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApBiMRAbE92YGMehZKCRfer3BtM__PGAo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1071200356644-n7dt828jjc94hgp5md1squ257n6ro6it.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

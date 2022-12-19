@@ -3,12 +3,32 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>862454311308-0ggt7j01k5fkgrs7g7eqg466eku122uu.apps.googleusercontent.com</string>
+	<string>1071200356644-ik8ettrc19oc0ifq1hre1feo58counip.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.862454311308-0ggt7j01k5fkgrs7g7eqg466eku122uu</string>
+	<string>com.googleusercontent.apps.1071200356644-ik8ettrc19oc0ifq1hre1feo58counip</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDnBhKNqiXfLkcsMeLRzUz-sQ9-GYD_5vQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1071200356644</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
 	<string>org.reactjs.native.example.PairLunchPicker</string>
+	<key>PROJECT_ID</key>
+	<string>pair-lunch-picker-7f114</string>
+	<key>STORAGE_BUCKET</key>
+	<string>pair-lunch-picker-7f114.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1071200356644:ios:0b07cfe1c306f021bd8bb1</string>
 </dict>
 </plist>

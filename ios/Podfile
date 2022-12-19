@@ -6,6 +6,10 @@ platform :ios, '15.0'
 target 'PairLunchPicker' do
     config = use_native_modules!
 
+    pod 'Firebase', :modular_headers => true
+    pod 'FirebaseCore', :modular_headers => true
+    pod 'GoogleUtilities', :modular_headers => true
+
     use_react_native!(
         :path => config[:reactNativePath],
         :hermes_enabled => false # Disables Hermes
